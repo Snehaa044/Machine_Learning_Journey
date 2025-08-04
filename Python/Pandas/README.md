@@ -6,13 +6,10 @@ This repository covers **essential Pandas operations** from **Series creation** 
 ---
 Pandas : Open-source and high performance Python library used as a tool for data analysis
 
-Import pandas  : 
 
+# 📥 Installation
 
-
-## 📥 Installation
-
-pip install pandas numpy
+pip install pandas
 
 ## 📥 Importing Pandas
 
@@ -20,8 +17,6 @@ import pandas as pd
 
 ## 🧵 Series — One-dimensional data
 Series : One row and One Column
-
-DataFrame : Multiple rows and Columns
 
 ### 📌 Creating Series
 ```python
@@ -41,6 +36,8 @@ series4 = pd.Series(np.array([100, 200, 300]))
 ---
 
 ## 💃 DataFrame — Two-dimensional data
+DataFrame : Multiple rows and Columns
+
 ### 📌 Creating DataFrames
 ```python
 # From NumPy Arrays
